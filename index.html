@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>BEEG YOSHI</title>
-<style>
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-</style>
-</head>
-<body>
-<script>
-	function play() {
-		var audio = document.getElementById("audio");
-		audio.play();
-	}
-</script>
-<img src="https://raw.githubusercontent.com/crims1n/yoshi/master/beegyoshi.png" value="PLAY"  onclick="play()">
-<audio id="audio" src="https://raw.githubusercontent.com/crims1n/yoshi/master/yoshi.wav" ></audio>
-</body>
+  <head>
+    <title>BEEG YOSHI</title>
+    <style>
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="yoshi.js"></script>
+    <img src="beegyoshi.png" value="PLAY" onclick="play()" />
+    <audio id="audio" src="yoshi.wav"></audio>
+  </body>
 </html>
