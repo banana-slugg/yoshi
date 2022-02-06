@@ -1,5 +1,5 @@
 .yoshi {
-  width: 20%;
+  width: 30%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -8,4 +8,10 @@
 
 body {
   background-color: #282a36;
+}
+
+@media all and (max-width: 1000px) {
+  .yoshi {
+    width: 70%;
+  }
 }
